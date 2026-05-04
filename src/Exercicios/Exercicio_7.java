@@ -10,6 +10,6 @@ public class Exercicio_7 {
         Double numero = sc.nextDouble();
 
         Double area = (3.14159 * numero * numero);
-        System.out.print("A área do circulo cujo o raio é " + numero + " é " + area);
+        System.out.printf("A área do circulo cujo o raio é %f é %.4f", numero, area);
     }
 }
