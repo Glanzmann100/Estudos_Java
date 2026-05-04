@@ -9,7 +9,7 @@ public class Exercicio_7 {
         System.out.print("Digite o valor de um raio para ver a área do círculo: ");
         Double numero = sc.nextDouble();
 
-        Double area = (3.14159 * numero * numero);
+        Double area = (3.14159 * Math.pow(numero, 2.0));
         System.out.printf("A área do circulo cujo o raio é %f é %.4f", numero, area);
     }
 }
