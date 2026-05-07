@@ -6,7 +6,7 @@ public class Exercicio_13 {
     public static void main (String[] args) {
         Scanner Telefonia = new Scanner(System.in);
         int Minutos = 0;
-        double valor, valor_minuto = 2;
+        double valor;
 
         System.out.println("Quantos minutos de telefone você consumiu: ");
         Minutos = Telefonia.nextInt();

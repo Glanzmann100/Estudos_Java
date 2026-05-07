@@ -32,10 +32,9 @@ public class Exercicio_14 {
                 dia = "Dia da Semana: Sábado";
                 break;
             default:
-                dia = "Dia da semana: valor inválido";
+                dia = "Dia inválido";
                 break;
         }
-
         System.out.print(dia);
     }
 }
