@@ -6,6 +6,7 @@ public class Exercicio_21 {
     public static void main (String[] args) {
         Scanner contador_numeros = new Scanner(System.in);
 
+        System.out.print("Digite um número de vezes para rodar o código: ");
         int numero = contador_numeros.nextInt();
         int dentro = 0;
         int fora = 0;
